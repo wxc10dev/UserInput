@@ -20,11 +20,7 @@ body {
   gap: 40px;
 }
 
-/* User inputs : 
-
-Acheter de la salade verte
-
-*/
+/* User inputs */
 
 input:focus {
   outline: none;
