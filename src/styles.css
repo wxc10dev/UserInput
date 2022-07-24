@@ -24,11 +24,9 @@ body {
 
 input:focus {
   outline: none;
-  background-color: #5078dc;
 }
 
 input::placeholder {
-  opacity: 0.5;
   color: black;
 }
 
@@ -36,8 +34,8 @@ input::placeholder {
   width: 700px;
   height: 45px;
   border: 2px solid #3453bb;
-  border-radius: 5px;
   padding-left: 5px;
+  border-radius: 5px;
 }
 
 /* Input 1 */
@@ -47,4 +45,8 @@ input::placeholder {
 
 /* Input 2 */
 #input-2 {
+}
+
+#input-3 {
+  background: #68aaff;
 }
