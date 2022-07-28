@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #ffffff;
+  /* background-color: #005388; */
+  background-color: #77b2ff;
 }
 
 #app {
@@ -23,30 +24,86 @@ body {
 /* User inputs */
 
 input:focus {
-  outline: none;
+  /* outline: none; */
+  outline-color: #ecf1f7;
+  outline-width: thick;
 }
 
 input::placeholder {
-  color: black;
+  color: #ecf1f7;
 }
 
 .user-input {
   width: 700px;
   height: 45px;
-  border: 2px solid #3453bb;
   padding-left: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 /* Input 1 */
 #input-1 {
   background-color: #5078dc;
+  border: 2px solid #486cc6;
+  color: #ecf1f7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 /* Input 2 */
 #input-2 {
+  border: 2px solid #3453bb;
+  color: #3453bb;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+/* Input 3 */
 #input-3 {
-  background: #68aaff;
+  background-color: #fec377;
+  border: 3px solid #e4af6b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Input 4 */
+#input-4 {
+  background-color: #fe77b2;
+  border: 3px solid #e46ba0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Input 5 */
+#input-5 {
+  background-color: #77fec3;
+  border: 3px solid #6be4af;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Input 6 */
+#input-6 {
+  background-color: #ffffff;
+  border: 3px solid #ecf1f7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* Input 7 */
+#input-7 {
+  background-color: #d5d7d9;
+  border: 3px solid #bfc1c3;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: #727375;
+}
+
+/* Input 8*/
+#input-8 {
+  background-color: #908cfa;
+  border: 3px solid #817ee1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  color: #727375;
+  color: #ecf1f7;
 }
