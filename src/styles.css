@@ -107,3 +107,24 @@ input::placeholder {
   color: #727375;
   color: #ecf1f7;
 }
+
+/* Mobile S, M and L */
+@media only screen and (max-width: 425px) {
+  .user-input {
+    width: 300px;
+  }
+}
+
+/* Tablet and Laptop */
+@media only screen and (max-width: 701px) and (min-width: 426px) {
+  .user-input {
+    width: 400px;
+  }
+}
+
+/* Laptop */
+@media only screen and (max-width: 900px) and (min-width: 702px) {
+  .user-input {
+    width: 480px;
+  }
+}
